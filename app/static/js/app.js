@@ -57,7 +57,6 @@ const router = new VueRouter({
     routes: [
         {path: "/", component: Home},
         // Put other routes here
-
         // This is a catch all route in case none of the above matches
         {path: "*", component: NotFound}
     ]
